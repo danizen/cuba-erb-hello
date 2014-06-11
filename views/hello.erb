@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title><%= @page_title %></title></head>
+<%# Since this is microframework, we have no layout and had to include above %>
+<body>
+<h1><%= @page_heading %></h1>
+<ul class="navmenu">
+  <% arr1.each do |option| %>
+    <li><%= option %></li>
+  <% end %>
+</ul>
+</body>
+</html>
